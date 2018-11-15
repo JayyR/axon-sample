@@ -1,0 +1,6 @@
+rootProject.name = 'axon-sample'
+
+include 'shared-lib'
+include 'command-service'
+include 'query-service'
+

@@ -1,0 +1,36 @@
+ö21:57:58.886 [Test worker] DEBUG org.axonframework.common.IdentifierFactory - Looking for IdentifierFactory implementation using the context class loader
+•21:57:58.906 [Test worker] DEBUG org.axonframework.common.IdentifierFactory - Looking for IdentifierFactory implementation using the IdentifierFactory class loader.
+y21:57:58.908 [Test worker] DEBUG org.axonframework.common.IdentifierFactory - Using default UUID-based IdentifierFactory
+î21:57:58.918 [Test worker] DEBUG org.axonframework.commandhandling.SimpleCommandBus - Handling command [io.jay.common.command.CreateAccountCommand]
+s21:57:58.928 [Test worker] DEBUG org.axonframework.messaging.unitofwork.AbstractUnitOfWork - Starting Unit Of Work
+”21:57:58.931 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.messaging.unitofwork.AbstractUnitOfWork$$Lambda$51/45088442 for phase ROLLBACK
+à21:57:58.939 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase STARTED
+ 21:57:58.941 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.messaging.unitofwork.UnitOfWork$$Lambda$55/472151909 for phase COMMIT
+Ã21:57:58.944 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.messaging.unitofwork.UnitOfWork$$Lambda$56/688015785 for phase ROLLBACK
+Ô21:57:58.952 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.test.aggregate.AggregateTestFixture$IdentifierValidatingRepository$$Lambda$64/422644372 for phase ROLLBACK
+ÿ21:57:58.953 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.modelling.command.AbstractRepository$$Lambda$65/1264277689 for phase PREPARE_COMMIT
+Ü21:57:58.959 [Test worker] DEBUG org.axonframework.messaging.Scope - Clearing out ThreadLocal current Scope, as no Scopes are present
+Î21:57:58.968 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.test.aggregate.AggregateTestFixture$RecordingEventStore$$Lambda$74/1081243890 for phase PREPARE_COMMIT
+Ü21:57:58.968 [Test worker] DEBUG org.axonframework.messaging.Scope - Clearing out ThreadLocal current Scope, as no Scopes are present
+–21:57:58.971 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.modelling.command.LockingRepository$$Lambda$75/1397664948 for phase CLEANUP
+—21:57:58.975 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.modelling.command.AbstractRepository$$Lambda$80/683562317 for phase ROLLBACK
+u21:57:58.986 [Test worker] DEBUG org.axonframework.messaging.unitofwork.AbstractUnitOfWork - Committing Unit Of Work
+è21:57:58.990 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase PREPARE_COMMIT
+á21:57:58.996 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase COMMIT
+ç21:57:58.997 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase AFTER_COMMIT
+à21:57:58.997 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase CLEANUP
+á21:57:58.998 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase CLOSED
+∑21:57:59.001 [Test worker] DEBUG org.axonframework.test.aggregate.AggregateTestFixture - Starting separate Unit of Work for the purpose of checking illegal state changes in Aggregate
+s21:57:59.001 [Test worker] DEBUG org.axonframework.messaging.unitofwork.AbstractUnitOfWork - Starting Unit Of Work
+”21:57:59.001 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.messaging.unitofwork.AbstractUnitOfWork$$Lambda$51/45088442 for phase ROLLBACK
+à21:57:59.003 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase STARTED
+Ü21:57:59.011 [Test worker] DEBUG org.axonframework.messaging.Scope - Clearing out ThreadLocal current Scope, as no Scopes are present
+œ21:57:59.021 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.modelling.command.LockingRepository$$Lambda$93/180667838 for phase CLEANUP
+“21:57:59.027 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.modelling.command.AbstractRepository$$Lambda$94/1524940214 for phase ROLLBACK
+◊21:57:59.029 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Adding handler org.axonframework.modelling.command.AbstractRepository$$Lambda$95/993514376 for phase PREPARE_COMMIT
+Ü21:57:59.032 [Test worker] DEBUG org.axonframework.messaging.Scope - Clearing out ThreadLocal current Scope, as no Scopes are present
+Ü21:57:59.036 [Test worker] DEBUG org.axonframework.messaging.Scope - Clearing out ThreadLocal current Scope, as no Scopes are present
+x21:57:59.046 [Test worker] DEBUG org.axonframework.messaging.unitofwork.AbstractUnitOfWork - Rolling back Unit Of Work.
+â21:57:59.066 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase ROLLBACK
+à21:57:59.068 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase CLEANUP
+á21:57:59.071 [Test worker] DEBUG org.axonframework.messaging.unitofwork.MessageProcessingContext - Notifying handlers for phase CLOSED
