@@ -1,8 +1,0 @@
-server:
-  port: 8081
-spring:
-  application:
-    name: command-service
-  h2:
-    console:
-      enabled: true

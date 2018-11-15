@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/axon-sample.iml" filepath="$PROJECT_DIR$/.idea/modules/axon-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command-service.iml" filepath="$PROJECT_DIR$/.idea/modules/command-service.iml" group="command-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/command-service_main.iml" group="command-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/command-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/command-service_test.iml" group="command-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/query-service.iml" filepath="$PROJECT_DIR$/.idea/modules/query-service.iml" group="query-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/query-service/query-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/query-service/query-service_main.iml" group="query-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/query-service/query-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/query-service/query-service_test.iml" group="query-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-lib.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-lib.iml" group="shared-lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-lib/shared-lib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-lib/shared-lib_main.iml" group="shared-lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared-lib/shared-lib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared-lib/shared-lib_test.iml" group="shared-lib" />
+    </modules>
+  </component>
+</project>

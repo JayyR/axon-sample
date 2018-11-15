@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="axon-sample_main" target="1.8" />
+      <module name="axon-sample_test" target="1.8" />
+      <module name="command-service_main" target="1.8" />
+      <module name="command-service_test" target="1.8" />
+      <module name="query-service_main" target="1.8" />
+      <module name="query-service_test" target="1.8" />
+      <module name="shared-lib_main" target="1.8" />
+      <module name="shared-lib_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
